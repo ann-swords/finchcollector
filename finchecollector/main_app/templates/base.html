@@ -7,16 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Finsh Collector</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'realCss/style.css' %}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
   <header class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper teal darken-4">
         <ul>
           <li><a href="/" class="left brand-logo">&nbsp;&nbsp;FinchCollector</a></li>
         </ul>
         <ul class="right">
+          <li><a href="/admin">Admin</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/finches/create">Add A Finch</a></li>
           <li><a href="/finches">View All My Finches</a></li>
@@ -28,7 +30,7 @@
     {% block content %}
     {% endblock %}
   </main>
-  <footer class="page-footer">
+  <footer class="page-footer teal darken-4">
     <div class="right">All Rights Reserved, &copy; Anwaar&reg; 2022 Finch Collector &nbsp;</div>
   </footer> 
 </body>

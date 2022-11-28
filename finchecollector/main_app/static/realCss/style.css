@@ -12,3 +12,12 @@ footer.page-footer {
   padding-top: 0;
   text-align: right;
 }
+
+.details:link{
+  color: black;
+  font-weight: bold;
+}
+
+.details:visited {
+  color: rgb(17, 84, 17);
+}
